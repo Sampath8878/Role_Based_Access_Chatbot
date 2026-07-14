@@ -13,3 +13,5 @@ pypdf
 python-docx
 tiktoken
 unstructured
+streamlit
+groq
