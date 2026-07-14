@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+langchain
+langgraph
+langchain-openai
+langchain-community
+langchain-qdrant
+qdrant-client
+python-dotenv
+pandas
+openpyxl
+pypdf
+python-docx
+tiktoken
+unstructured
