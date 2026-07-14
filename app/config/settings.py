@@ -18,7 +18,7 @@ class Settings:
     QDRANT_API_KEY = os.getenv("QDRANT_API_KEY")
 
     QDRANT_COLLECTION = os.getenv(
-        "COLLECTION_NAME",
+        "QDRANT_COLLECTION",
         "company_docs"
     )
 
