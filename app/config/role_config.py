@@ -19,7 +19,10 @@ ROLE_METADATA = {
 
     "marketing": {
         "department": "Marketing",
-        "allowed_roles": ["Marketing", "C-Level"],
+        "allowed_roles": [
+            "Marketing",
+            "C-Level",
+        ],
         "security_level": "restricted",
         "owner": "Marketing Team",
         "document_type": "Marketing",
