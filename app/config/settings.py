@@ -3,7 +3,7 @@ import os
 
 from dotenv import load_dotenv
 
-
+# Go to Tutorial Agentic AI/.env
 ENV_PATH = Path(__file__).resolve().parents[3] / ".env"
 
 load_dotenv(ENV_PATH)
@@ -51,3 +51,4 @@ class Settings:
 
 
 settings = Settings()
+
