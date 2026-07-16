@@ -1,17 +1,16 @@
 # 🤖 Role-Based Agent AI
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Frontend-red?logo=streamlit)
 ![Qdrant](https://img.shields.io/badge/Qdrant-Vector%20Database-orange)
 ![Groq](https://img.shields.io/badge/Groq-LLM-green)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
-A production-style **Role-Based Retrieval-Augmented Generation (RAG) Chatbot** built using **FastAPI**, **Streamlit**, **Qdrant**, **Groq LLM**, and **Hugging Face Embeddings**.
+A production-style **Role-Based Retrieval-Augmented Generation (RAG) Chatbot** built using **Python**, **Streamlit**, **Groq LLM**, **Qdrant**, and **Hugging Face Embeddings**.
 
 The system enables employees from different departments to securely retrieve company knowledge while enforcing **Role-Based Access Control (RBAC)**. Each user only receives information they are authorized to access, ensuring sensitive company documents remain protected.
 
-Unlike a traditional chatbot, this system combines semantic document retrieval, role-aware filtering, structured data analysis, and LLM reasoning to generate accurate, context-aware responses with source references.
+Unlike traditional chatbots, this system combines semantic document retrieval, role-aware filtering, structured data analysis, and LLM reasoning to generate accurate, context-aware responses with source references.
 
 ---
 
@@ -596,8 +595,7 @@ This improves transparency and allows users to verify the retrieved information.
 | Component | Technology |
 |-----------|------------|
 | Programming Language | Python 3.11+ |
-| Backend | FastAPI |
-| Frontend | Streamlit |
+| User Interface | Streamlit |
 | LLM | Groq (Llama 3.3 70B Versatile) |
 | Embedding Model | Hugging Face (BAAI/bge-small-en-v1.5) |
 | Vector Database | Qdrant |
@@ -1078,12 +1076,13 @@ This project demonstrates practical AI Engineering skills across multiple domain
 
 ---
 
-### Backend Development
+### Backend & Software Engineering
 
-- FastAPI
 - Python
-- API Integration
-- Modular Project Architecture
+- Modular Application Architecture
+- Object-Oriented Programming
+- Enterprise AI System Design
+- Configuration & Environment Management
 
 ---
 
